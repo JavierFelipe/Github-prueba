@@ -51,3 +51,35 @@
 #elementos_repetidos()
 
 ###########################
+
+#def https(status):
+    #match status:
+        #case 400:
+            #return "Bad request"
+        #case 404:
+            #return "Not found"
+        #case 418:
+            #return "I\'m a teapot"
+        #case _:
+            #return "Something\'s wrong with the internet"
+        
+#print(https(400))
+
+###########################
+
+# Patrón OR
+
+#a = True
+#b = 5
+
+#match a|b :
+    #case 9:
+        #print("Hola a todos")
+    #case 5:
+        #print("Real Madrid")
+
+###########################
+
+
+
+
